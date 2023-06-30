@@ -6,6 +6,7 @@ namespace PrimeraAplicacion
     {
         private static void Main(string[] args)
         {
+            Console.WriteLine("Pruebacongit");
             Console.WriteLine("Hello, World!");
         }
     }
