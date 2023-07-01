@@ -12,8 +12,7 @@ namespace PrimeraAplicacion
             int numero2 = int.Parse(Console.ReadLine());
             Console.WriteLine(" Estos Dos números se sumarán jejeje");
             Console.WriteLine(" ");
-            int numero3 = numero1 + numero2;
-            Console.WriteLine(numero3);
+            Console.WriteLine( numero1 + numero2 );
 
 
 
