@@ -6,13 +6,14 @@ namespace PrimeraAplicacion
     {
         private static void Main(string[] args)
         {
-            const double PI = 3.1416;
-            Console.WriteLine("Introduzca la medida del radio");
-            double radio= double.Parse(Console.ReadLine());
-            double area = radio * radio * PI;
-            Console.WriteLine(" El area del circulo es la siguiente {0}", area);
             
+            Console.WriteLine("Introduzca el primer número a sumar");
+            double numero1= double.Parse(Console.ReadLine());
+            Console.WriteLine("Introduzca el segundo número a sumar");
+            double numero2 = double.Parse(Console.ReadLine());
+            Console.WriteLine("El resultado de la suma es : " + numero1+numero2);
 
+            
 
 
 
